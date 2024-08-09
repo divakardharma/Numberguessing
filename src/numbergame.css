@@ -1,0 +1,206 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+ body {
+   font-family: "Poppins", sans-serif;
+   background: url(./ABCD/benbackground.jpg) no-repeat center center fixed;
+   background-size: cover;
+   margin: 0;
+   height: 100vh;
+   overflow-x: hidden;
+
+ }
+ 
+ .container {
+  background-image: url();
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: calc(95vh - 80px);
+   padding: 20px;
+ }
+ 
+ .box {
+   max-width: 100%;
+   width: 100%;
+   max-width: 400px;                          
+   margin: 0 auto;                            
+   padding: 20px;                             
+   border: 1px solid #ccc;                   
+   border-radius: 8px;                        
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   background-color: #d8cbcb01;    
+   backdrop-filter: blur(2px);               
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .box h1 {
+   /* font-family: "Josefin Sans", sans-serif;
+   text-shadow: 2px 2px 5px rgb(255, 255, 255);
+   color: rgb(87, 84, 100);
+   font-weight: 800;
+   font-style: italic;
+   margin-bottom: 20px; */
+   font-size: 40px;
+   color: rgb(151, 145, 145);
+   text-shadow: 
+     2px 2px 0 #000000,  
+    -2px -2px 0 #030303,  
+     2px -2px 0 #0aea15,  
+    -2px  2px 0 #040404,  
+     0 0 5px rgba(0, 0, 0, 0.5); /* Optional: adds a glow effect */
+ }
+ 
+ input[type="number"] {
+   width: 100%; 
+   padding: 10px; 
+   margin-bottom: 10px; 
+   font-size: 16px; 
+   border: 1px solid #ddd; 
+   border-radius: 4px;
+   box-sizing: border-box; 
+ }
+ 
+ button {
+   width: 100%;                            
+   padding: 10px;                          
+   background-color: #007bff;             
+   color: white;                          
+   font-size: 16px;                        
+   border: none;                           
+   border-radius: 4px;                     
+   cursor: pointer;                        
+   transition: background-color 0.3s ease; 
+ }
+ 
+ button:hover {
+   background-color: #0056b3;
+ }
+ 
+ div[style] {
+   margin-top: 20px;
+   font-size: 18px; 
+   font-weight: bold; 
+   text-align: center;
+ }
+ 
+ .footer {
+   background-color: #161513ed;
+   color: white;
+   padding: 23px;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 0.9rem;
+ }
+
+ 
+
+
+ /* Responsive Design */
+
+
+ @media (max-width: 1500px) {
+   .box {
+     max-width: 60%; 
+     padding: 20px; 
+   }
+ 
+   input[type="number"],
+   button {
+     font-size: 14px;
+   }
+ 
+   div[style] {
+     font-size: 16px; 
+   }
+ }
+ 
+ @media (max-width: 780px) {
+   body {
+     background: url(./ABCD/benbackground1.jpg) no-repeat center center fixed;
+     background-size: cover;
+   }
+ 
+   .box {
+     max-width: 80%;
+     padding: 15px; 
+   }
+ 
+   input[type="number"],
+   button {
+     font-size: 14px;
+   }
+ 
+   div[style] {
+     font-size: 16px; 
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   body {
+     background: url(./ABCD/benbackground2.jpg) no-repeat center center fixed;
+     background-size: cover;
+   }
+   .box h1 {
+    /* font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgb(87, 84, 100);
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px; */
+    font-size: 25px;
+    color:  rgb(151, 145, 145);
+    text-shadow: 
+      2px 2px 0 #000000,  
+     -2px -2px 0 #030303,  
+      2px -2px 0 #0aea15,  
+     -2px  2px 0 #040404,  
+      0 0 5px rgba(0, 0, 0, 0.5); /* Optional: adds a glow effect */
+  }
+   .box {
+     max-width: 90%;
+     padding: 10px; 
+   }
+ 
+   input[type="number"],
+   button {
+     font-size: 14px; 
+   }
+ 
+   div[style] {
+     font-size: 14px; 
+   }
+ }
+ 
+
+ @media (max-width: 313px) {
+  body {
+    background: url(./ABCD/benbackground2.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  .box h1 {
+   font-size: 25px;
+   color:  rgb(151, 145, 145);
+   text-shadow: 
+     2px 2px 0 #000000,  
+    -2px -2px 0 #030303,  
+     2px -2px 0 #0aea15,  
+    -2px  2px 0 #040404,  
+     0 0 5px rgba(0, 0, 0, 0.5); /* Optional: adds a glow effect */
+ }
+  .box {
+    max-width: 90%;
+    padding: 20px; 
+  }
+
+  input[type="number"],
+  button {
+    font-size: 14px; 
+  }
+
+  div[style] {
+    font-size: 14px; 
+  }
+}
