@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import './numbergame.css';
-import WatchImg from './ABCD/gig1.gif'; 
-import WatchImg2 from './ABCD/gig2.gif';
+import WatchImg from './assests/gig1.gif'; 
+import WatchImg2 from './assests/gig2.gif';
 
 const NumberGuessingGame = () => {
 
